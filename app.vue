@@ -6,8 +6,8 @@ const response = await $fetch('/auth/login', {
   baseURL: config.public.API_BASE_URL,
   credentials: 'include',
   body: {
-    username: 'kminchelle',
-    password: '0lelplR',
+    username: config.EMAIL,
+    password: config.PASSWORD,
   },
 });
 </script>
